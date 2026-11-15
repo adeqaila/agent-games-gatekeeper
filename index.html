@@ -1,0 +1,12 @@
+<!doctype html>
+<html><head><meta charset="utf-8"><title>Agent Games sign-in</title></head>
+<body>
+<h1>Agent Games sign-in (wallet)</h1>
+<form action="https://agentgames.zkverify.io/api/auth/callback/wallet" method="POST">
+<label>csrfToken<br><input name="csrfToken" size="80"></label><br><br>
+<label>message<br><textarea name="message" rows="12" cols="80"></textarea></label><br><br>
+<label>signature<br><input name="signature" size="80"></label><br><br>
+<input type="hidden" name="json" value="true">
+<button type="submit">Sign in</button>
+</form>
+</body></html>
